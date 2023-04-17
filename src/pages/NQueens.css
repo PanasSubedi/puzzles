@@ -1,0 +1,51 @@
+.inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputs .input-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.chess-container {
+  display: flex;
+  align-items: flex-start;
+  grid-column-gap: 10px;
+  justify-content: center;
+}
+
+.chess-board-row {
+  display: flex;
+}
+
+.chess-board-row .chess-board-cell {
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+}
+
+.chess-board-row .black {
+  background-color: black;
+}
+
+.chess-board-row .white {
+  background-color: white;
+}
+
+.chess-board-row .queen-white {
+  background-image: url("../assets/queen-black.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.chess-board-row .queen-black {
+  background-image: url("../assets/queen-white.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.invalid-cell {
+  border: 2px solid #ff3c3c !important;
+}

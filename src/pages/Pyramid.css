@@ -1,0 +1,161 @@
+.polysphere-wrapper {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.polysphere-wrapper .grid-item-wrapper h1 {
+  font-size: 30px;
+  margin: 15px 0;
+  letter-spacing: 0.3rem;
+  font-family: monospace;
+  font-weight: 700;
+}
+
+.polysphere-wrapper .layout-row {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.polysphere-wrapper .grid-item-wrapper .layout-row .cell-wrapper {
+  position: relative;
+}
+
+.polysphere-wrapper .grid-item-wrapper .layout-row .cell {
+  border-radius: 50%;
+}
+
+
+/* Start BLOCK CELL design */
+.polysphere-wrapper .grid-item-wrapper .layout-row .cell.block-cell {
+  height: 20px;
+  width: 20px;
+}
+
+.polysphere-wrapper .grid-item-wrapper .block-layout-container {
+  padding: 10px 0;
+  height: 80px;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.polysphere-wrapper .grid-item-wrapper .block-layout-container:hover {
+  cursor: pointer;
+}
+
+.polysphere-wrapper .grid-item-wrapper .block-layout-container:active {
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+}
+
+.polysphere-wrapper .grid-item-wrapper .block-layout-container.selected {
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+  background-color: #ddd;
+}
+
+.polysphere-wrapper .grid-item-wrapper .block-layout-container.disabled {
+  cursor: not-allowed;
+  background-color: #ddd;
+  filter: blur(1px);
+}
+
+.polysphere-wrapper .grid-item-wrapper .block-layout-container.disabled:active {
+  border-top: none;
+  border-left: none;
+}
+
+.polysphere-wrapper .grid-item-wrapper .block-layout-container:hover .layout-row .block-cell-color {
+  width: 22px;
+  height: 22px;
+}
+
+.polysphere-wrapper .grid-item-wrapper .block-layout-container.disabled:hover .layout-row .block-cell-color {
+  width: 20px;
+  height: 20px;
+}
+
+
+/* End BLOCK CELL design */
+
+/* Start individual pyramid solution design */
+
+.polysphere-wrapper .grid-item-wrapper .block-layout-container:active {
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+}
+
+.pyramid-solution {
+  height: 150px;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  border-radius: 10px;
+}
+
+.pyramid-solution:hover {
+  cursor: pointer;
+}
+
+.pyramid-solution:active {
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+}
+
+/* End individual pyramid solution design */
+
+/* Start COLORED CELLS design*/
+.polysphere-wrapper .grid-item-wrapper .layout-row .board-cell-empty {
+  background: radial-gradient(circle at 100px 100px, #000, #000);
+}
+
+.polysphere-wrapper .grid-item-wrapper .layout-row .board-cell-red {
+  background: radial-gradient(circle at 100px 100px, #ea1212, #ea1212);
+}
+
+.polysphere-wrapper .grid-item-wrapper .layout-row .board-cell-dark-pink {
+  background: radial-gradient(circle at 100px 100px, #ed6fa9, #ed6fa9);
+}
+
+.polysphere-wrapper .grid-item-wrapper .layout-row .board-cell-pink {
+  background: radial-gradient(circle at 100px 100px, #efa5c5, #efa5c5);
+}
+
+.polysphere-wrapper .grid-item-wrapper .layout-row .board-cell-blue {
+  background: radial-gradient(circle at 100px 100px, #148bd2, #148bd2);
+}
+
+.polysphere-wrapper .grid-item-wrapper .layout-row .board-cell-yellow {
+  background: radial-gradient(circle at 100px 100px, #fbe83c, #fbe83c);
+}
+
+.polysphere-wrapper .grid-item-wrapper .layout-row .board-cell-purple {
+  background: radial-gradient(circle at 100px 100px, #b461ae, #b461ae);
+}
+
+.polysphere-wrapper .grid-item-wrapper .layout-row .board-cell-dark-purple {
+  background: radial-gradient(circle at 100px 100px, #713e8f, #713e8f);
+}
+
+.polysphere-wrapper .grid-item-wrapper .layout-row .board-cell-green {
+  background: radial-gradient(circle at 100px 100px, #81ce85, #81ce85);
+}
+
+.polysphere-wrapper .grid-item-wrapper .layout-row .board-cell-dark-green {
+  background: radial-gradient(circle at 100px 100px, #08a037, #08a037);
+}
+
+.polysphere-wrapper .grid-item-wrapper .layout-row .board-cell-dark-orange {
+  background: radial-gradient(circle at 100px 100px, #f27021, #f27021);
+}
+
+.polysphere-wrapper .grid-item-wrapper .layout-row .board-cell-orange {
+  background: radial-gradient(circle at 100px 100px, #f3ba32, #f3ba32);
+}
+
+.polysphere-wrapper .grid-item-wrapper .layout-row .board-cell-light-blue {
+  background: radial-gradient(circle at 100px 100px, #89c9ef, #89c9ef);
+}
+
+/* End COLORED CELL design */
